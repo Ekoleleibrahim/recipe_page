@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 50px 0;
+    background-color: rgba(228, 228, 173, 0.554);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1,
+h2,
+section{
+    margin-bottom: 20px;
+}
+h2{
+    color: rgb(149, 76, 24);
+}
+.Preparation-time{
+    padding: 20px;
+    background-color: rgba(184, 103, 45, 0.153);
+    border-radius: 5px;
+}
+.heading-two{
+    font-size: 18px;
+}
+span{
+    font-weight: bold;
+}
+img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+    transform: scale(0.9);
+}
+img:hover{
+    transform: scale(1);
+}
+section{
+    margin-top: 20px;
+}
+ul,
+ol{
+    padding-left: 20px;
+}
+li::marker{
+    color: rgb(149, 76, 24);
+    font-size: 1.1em;
+}
+li{
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+article{
+    width: 500px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+table{
+    width: 100%;
+    margin-top: 10px;
+    border-collapse: collapse;
+}
+tr{
+    border-bottom: 1px solid rgb(215, 215, 215);
+}
+td{
+    padding: 10px;
+}
+td:nth-child(even){
+    color: rgb(149, 76, 24);
+    font-weight: 700;
+}
+
+@media (max-width: 510px) {
+    body{
+        padding: 0;
+    }
+    article{
+        width: 100%;
+        border-radius: 0;
+    }
+}
